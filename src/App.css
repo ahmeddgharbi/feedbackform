@@ -10,12 +10,21 @@ input[type="radio"]{
   display: none;
 }
 
+.App p{
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+}
+
 h2{
   margin-top: 100px;
   margin-bottom: 50px;
 }
 p{
-  margin-top: 30px;
+  margin-top: 0px;
+  padding-left: 82px;
+  padding-right: 82px;
+  color: #979797;
 }
 
 .App img{
@@ -24,6 +33,7 @@ p{
   height: 60px;
   left: 27px;
   top: 15px;  
+  margin-left: 0%;
 }
 .App hr{
   position: absolute;
@@ -43,7 +53,8 @@ left: 35%;
 border: 0.1px solid #DEDEDE;
 }
 .App textarea {
-
+  display: block;
+  padding: 18px;
 margin: 20px;
 width: 880px;
 height: 191px;
@@ -66,10 +77,11 @@ border-radius: 1px;
   border:1px solid #C8C8C8;;
 }
 
-.Button {
+.App Button {
   background: transparent;
   border: 0;
   border-radius: 0;
+  right: 0px;
   color: inherit;
   display: inline-block;
   font: inherit;
@@ -132,3 +144,28 @@ body {
   min-height: 100%;
 }
 
+
+img{
+  margin-left: 43%;
+  width: 100px;
+  height: 150px;
+  margin-bottom: 40px;
+
+}
+Button {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  right: 230px;
+  color: inherit;
+  display: inline-block;
+  font: inherit;
+  height: auto;
+  line-height: 1;
+  margin: 3px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+
+}
